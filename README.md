@@ -1,30 +1,27 @@
 # Final Grupal 
 Final Grupal
 
-
-# proyectoFinal
-Individual final
-
-# Monitoreo de Adultos Mayores
-Esta aplicación está pensada como un servicio gratuito de la Municipalidad para sus vecinos. 
-Dicho esto, la aplicación permite que cada vecino, pueda ingresar los datos de un adulto mayor, junto a una prescripción médica firmada y nos indique en que horarios se debe tomar los remedios de esta prescripción, de esta forma una persona llama telefónicamente al adulto mayor. <br>
+# APPFARM
+Esta aplicación es una farmacia en linea, la que permite la venta de remedios. 
+Tiene un formulario para que el administrador cargue productos y un carro de compra para la venta.
 
 ## Comenzando 🚀
-Debes descargar el aplicativo de mi github maspee con el nombre final_individual.
+Debes descargar el aplicativo del github Patricio90 con el nombre tlv_final.
 
 ### Pre-requisitos 📋
 Activar entorno virtual en Visual Studio Code. En caso de no tener instalado un entorno virtual, debes instalarlo y activarlo.
 Una vez activo el entorno virtual, ir a la carpeta del aplicativo y ejecutar python.manage.py runserver
 
 ### Ejecutando las pruebas ⚙️
-La aplicación comienza en la página principal con un mensaje de bienvenida, que nos explica para que sirve y nos da la opción de Ingresar. 
-Esto nos lleva a la pagina de prescripciones médicas y nos permite agregar. Es necesario estar registrado para poder ingresar prescripciones. La aplicación nos permite registrarnos como usuarios. 
+La aplicación comienza en la página principal donde se indica que se trata de una farmacia virtual. 
+La aplicación nos permite registrarnos como usuarios. 
 Pasos para prueba:
 En el archivo settings.py, se debe modificar la contraseña de la base de datos farmbd. La contraseña es 12345678.
 Ingrese a http://127.0.0.1:8000/ y logearso con super usuario farmacia, contraseña farmacia.
 En la opción productos, agregar producto. 
 En la opción listado productos, puede ver los productos agregados. 
 Puedes agregar usuarios en la opcion login, registro. 
+
 ### Analice las pruebas end-to-end 🔩
 El sistema graba nuevos usuarios.
 Valida que el formulario de creación de usuarios trabaja correctamente.
